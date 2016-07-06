@@ -1,9 +1,12 @@
+*{
+  box-sizing:border-box;
+}
 body {
-  width:1280px;
+  width:1080px;
   height: 1000px;
   margin: 0 auto;
-  background-image: url("https://cdn3.vox-cdn.com/thumbor/wHxhv-dJn4itKsdqbWTqPlSwGto=/180x0:1872x952/1280x720/cdn0.vox-cdn.com/uploads/chorus_image/image/37251612/pokemon-list.0.0.png");
-  background-position: center;
+  background-image: url("http://orig09.deviantart.net/d4bf/f/2010/152/e/0/150_pokemon_v2_by_jen_jen_rose.png");
+  background-position: top;
 }
 header {
   background-color: black;
@@ -39,28 +42,74 @@ font-size: 20px;
 a:hover{
   background-color: red;
 }
-.bio {
-  width: auto;
-  clear:left;
-  padding: 10px;
+sidebar {
+  float:left;
+  width:25%;
+font-size: 1.1em;
+background-color: #5b65ec;
+border: 10px solid
+
+}
+.charmander-bio{
+  width: 70%;
+  border: 10px solid;
+  margin: 0 auto auto auto;
+  float: right;
+
+
+}
+.squirtle-bio {
+  width: 70%;
+  float: right;
+  border: 10px solid;
   background-color: rgb(46, 196, 27);
-  border-radius: 30px;
   margin: 10px auto;
 }
+.bulbasaur-bio{
+  width: 70%;
+  float: right;
+  border: 10px solid;
+  background-color: green;
+  margin: 10px auto 0 auto;
+}
+
 div img {
   float: left;
-  margin: 10px 0;
-  border-radius: 30px
+  margin: 5px 5px;
 }
 p {
-  background-color: white;
   height: auto;
-  font-size: 1.4em;
+  font-size: 1.1em;
   text-indent: 50px;
-  padding:inherit;
   margin: auto 0;
-  border-radius: 30px
+    padding-bottom: 20px
 }
-.charmander {
-  margin-top: 0
+.main-content{
+  border-radius: 30px;
+  display: inline-block;
+  width: 1080px
 }
+
+.charmander-bio p {
+  background-color: red
+}
+.squirtle-bio p {
+  background-color: #5b65ec
+}
+footer {
+  text-align: center;
+  background-color: yellow;
+  font-size: 30px;
+margin: 200px auto auto auto;
+width: 450px
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 3px
+}
+ sidebar p {
+   margin: 50px 30px
+ }
