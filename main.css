@@ -2,25 +2,33 @@
   box-sizing:border-box;
 }
 body {
-  width:1080px;
-  height: 1000px;
+  width:100%;
+  max-width: 1080px;
+  height: 100%
+  max-height: 1000px;
   margin: 0 auto;
   background-image: url("http://orig09.deviantart.net/d4bf/f/2010/152/e/0/150_pokemon_v2_by_jen_jen_rose.png");
   background-position: top;
 }
 header {
   background-color: black;
-  height: 150px;
+  max-height: 150px;
+  margin: 0 auto;
+  height: 100%
+  width: 100%;
+
 }
 .logo {
 margin: 0;
 position: relative;
 bottom: 11px;
 left: 11px
+max-width: 100%;
 }
 
 .title {
-  margin-left: 320px;
+  margin-left: 230px;
+  max-width: 100%;
 }
 
 li {
@@ -76,6 +84,7 @@ border: 10px solid
 div img {
   float: left;
   margin: 5px 5px;
+  max-width: 100%;
 }
 p {
   height: auto;
